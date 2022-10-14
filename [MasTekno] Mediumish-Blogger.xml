@@ -109,7 +109,7 @@
         ul,ol,li{display:none}
       ]]></b:skin>
     </b:if>
-<link href='https://cdn.statically.io/gh/mastekno-com/mediumish-blogger-mastekno/master/mediumish-green.css' rel='stylesheet'/>
+<link href='https://gitcdn.link/cdn/uiaciel/template-medium/main/mediumish-blue.css' rel='stylesheet'/>
     <style>
       html {
       -webkit-animation: fadein 1s;
@@ -779,7 +779,7 @@ head.insertBefore(script, head.firstChild);
             <data:blog.title/>
           </a>.</p>
 	<!--DIHARAPKAN TIDAK MENGHAPUS CREDIT LINK-->
-        <p class='pull-right'>
+        <p class='pull-right' hidden>
           Template By: <b:if cond='data:view.isHomepage'><a href='https://www.mastekno.com/' id='mastekno' rel='nofollow external' title='MasTekno.com'>MasTekno.com</a>.<b:else/>MasTekno.com.</b:if>
         </p>
         <div class='clearfix'/>
@@ -790,14 +790,14 @@ head.insertBefore(script, head.firstChild);
 <b:if cond='data:view.isHomepage'>
 <script>
   //<![CDATA[
-  var scripts = ["https://cdn.statically.io/gh/mastekno-com/mediumish-blogger-assets/master/main-jquerys.js","https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"];
+  var scripts = ["https://gitcdn.link/cdn/uiaciel/template-medium/main/Main-Jquery.js","https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"];
 //]]>
   </script>
-  <script src='https://cdn.statically.io/gh/mastekno-com/mediumish-blogger-assets/master/main-homes.js'/>
+  <script src='https://gitcdn.link/cdn/uiaciel/template-medium/main/Main-Home.js'/>
 <b:else/>
   <script>
     //<![CDATA[
-  var scripts = ["https://cdn.statically.io/gh/mastekno-com/mediumish-blogger-assets/master/main-jquerys.js","https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"];
+  var scripts = ["https://gitcdn.link/cdn/uiaciel/template-medium/main/Main-Jquery.js","https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"];
 //]]>
 </script>
  </b:if>
