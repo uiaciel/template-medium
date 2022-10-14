@@ -779,7 +779,7 @@ head.insertBefore(script, head.firstChild);
             <data:blog.title/>
           </a>.</p>
 	<!--DIHARAPKAN TIDAK MENGHAPUS CREDIT LINK-->
-        <p class='pull-right' hidden>
+        <p class='pull-right hidden'>
           Template By: <b:if cond='data:view.isHomepage'><a href='https://www.mastekno.com/' id='mastekno' rel='nofollow external' title='MasTekno.com'>MasTekno.com</a>.<b:else/>MasTekno.com.</b:if>
         </p>
         <div class='clearfix'/>
@@ -793,7 +793,7 @@ head.insertBefore(script, head.firstChild);
   var scripts = ["https://gitcdn.link/cdn/uiaciel/template-medium/main/Main-Jquery.js","https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"];
 //]]>
   </script>
-  <script src='https://gitcdn.link/cdn/uiaciel/template-medium/main/Main-Home.js'/>
+  <!-- <script src='https://gitcdn.link/cdn/uiaciel/template-medium/main/Main-Home.js'/> -->
 <b:else/>
   <script>
     //<![CDATA[
